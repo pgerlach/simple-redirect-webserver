@@ -1,8 +1,8 @@
 {
-  "name": "qleek-frontend-redirect",
+  "name": "simple-redirect-webserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "webserver.js",
+  "description": "Simple webserver that redirects all requests to another domain (useful when switching domains)",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.13.4"
   },
@@ -10,6 +10,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Pierre-Rudolf Gerlach <pgerlach@gmail.com>",
+  "license": "MIT"
 }
